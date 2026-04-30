@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2024-2025 The Clover Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Custom QS tiles -->
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_off_powersave_label">Tắt AOD\nTiết kiệm pin</string>
+
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Hiển thị môi trường xung quanh</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Tắt hiển thị môi trường xung quanh</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Bật hiển thị môi trường xung quanh</string>
+
+    <!-- Autobrightness tile -->
+    <string name="quick_settings_autobrightness_label">Độ sáng tự động</string>
+
+    <!-- Caffeine QS tile -->
+    <string name="quick_settings_caffeine_label">Cafein</string>
+    <string name="accessibility_quick_settings_caffeine_off">Đã tắt Cafein</string>
+    <string name="accessibility_quick_settings_caffeine_on">Đã bật Cafein</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Chuyển SIM dữ liệu</string>
+
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Heads up</string>
+    <string name="accessibility_quick_settings_heads_up_off">Heads up tắt</string>
+    <string name="accessibility_quick_settings_heads_up_on">Heads up bật</string>
+
+    <!-- Sync QS tile -->
+    <string name="quick_settings_sync_label">Đồng bộ</string>
+    <string name="accessibility_quick_settings_sync_off">Tắt đồng bộ</string>
+    <string name="accessibility_quick_settings_sync_on">Bật đồng bộ</string>
+
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">Kết nối mạng qua USB</string>
+
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Kết nối với\u2026</string>
+    <string name="vpn_credentials_hint">Vui lòng nhập thông tin đăng nhập của bạn để kết nối với </string>
+    <string name="vpn_credentials_username">Tên người dùng</string>
+    <string name="vpn_credentials_password">Mật khẩu</string>
+    <string name="vpn_credentials_dialog_connect">Kết nối</string>
+
+    <!-- Label for area where tiles can be added to the qs panel -->
+    <string name="drag_or_tap_to_add_tiles">Giữ &amp; kéo hoặc nhấn để thêm ô</string>
+
+    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Xóa</string>
+
+    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Xóa ảnh chụp màn hình</string>
+
+    <!-- Smartspace -->
+    <string name="accessibility_next_alarm">Báo thức tiếp theo lúc %s</string>
+    <string name="accessibility_smartspace_page">Trang %1$d trên %2$d</string>
+    <string name="active_mode_content_description">%1$s đang bật</string>
+    <string name="generic_smartspace_concatenated_desc">%1$s, %2$s</string>
+    <string name="music_controls_no_title">Không có tiêu đề</string>
+    <string name="smartspace_content_desc">At a glance</string>
+    <string name="smartspace_flight_qr_code">Mã QR</string>
+    <string name="smartspace_icu_date_pattern">EEEMMMd</string>
+    <string name="smartspace_role_desc">Xem</string>
+
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Biểu tượng thanh trạng thái</string>
+
+    <!-- Internet -->
+    <string name="status_bar_settings_network_speed">Tốc độ Internet</string>
+
+    <!-- Text while recognizing face -->
+    <string name="face_unlock_recognizing">Đang nhận diện khuôn mặt...</string>
+
+    <!-- Name of the roaming status bar icon. -->
+    <string name="status_bar_roaming">Biểu tượng chuyển vùng</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Biểu tượng khi dữ liệu tắt</string>
+
+    <!-- 4G icon instead LTE -->
+    <string name="fourg_icon_title">Biểu tượng 4G</string>
+
+    <!-- QS button to enable adaptive brightness -->
+    <string name="accessibility_adaptive_brightness">Tự động điều chỉnh độ sáng</string>
+
+    <!-- Advanced restart menu -->
+    <!-- Button to indicate more options -->
+    <string name="global_action_restart_more">Khởi động lại\u2026</string>
+    <!-- Button to restart the device, within the Restart Options dialog -->
+    <string name="global_action_restart_system">Hệ thống</string>
+    <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
+    <string name="global_action_restart_recovery">Chế độ phục hồi</string>
+    <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
+    <string name="global_action_restart_bootloader">Trình nạp khởi động</string>
+    <!-- Button to restart the device into download mode, within the Restart Options dialog -->
+    <string name="global_action_restart_download">Tải xuống</string>
+    <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_progress">Đang khởi động lại\u2026</string>
+    <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_recovery_progress">Đang khởi động lại vào chế độ phục hồi\u2026</string>
+    <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_bootloader_progress">Đang khởi động lại vào chế độ trình nạp khởi động\u2026</string>
+    <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_download_progress">Đang khởi động lại vào chế độ tải về\u2026</string>
+    <!-- Button to restart SystemUI, within the Restart Options dialog -->
+    <string name="global_action_restart_systemui">Giao diện hệ thống</string>
+
+    <!-- Flashlight Strength -->
+    <string name="flashlight_strength_title">Độ sáng của đèn pin</string>
+    <string name="flashlight_strength_turn_off">Tắt</string>
+    <string name="flashlight_strength_turn_on">Bật</string>
+
+    <!-- Volume QS Tile -->
+    <string name="quick_settings_volume_label">Âm lượng</string>
+    <string name="qs_volume_dialog_title">Điều chỉnh âm lượng</string>
+    <string name="qs_volume_dialog_mute">Tắt tiếng</string>
+
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Âm thanh</string>
+    <string name="quick_settings_sound_ring">Chuông</string>
+    <string name="quick_settings_sound_vibrate">Rung</string>
+    <string name="quick_settings_sound_mute">Tắt tiếng</string>
+
+    <!-- Name of the VoLTE status bar tuner toggle. -->
+    <string name="status_bar_volte_icon_title">VoLTE</string>
+    <!-- Name of the VoNR status bar tuner toggle. -->
+    <string name="status_bar_vonr_icon_title">VoNR</string>
+    <!-- Name of the VoWiFi status bar tuner toggle. -->
+    <string name="status_bar_vowifi_icon_title">VoWiFi</string>
+
+</resources>
