@@ -146,4 +146,13 @@
     <!-- Name of the VoWiFi status bar tuner toggle. -->
     <string name="status_bar_vowifi_icon_title">VoWiFi</string>
 
+    <!-- Classic status bar icons -->
+    <!-- Title for the status bar icon style toggle. -->
+    <string name="status_bar_classic_icons_title">Dùng các biểu tượng thanh trạng thái cổ điển</string>
+    <!-- Summary for the status bar icon style toggle. -->
+    <string name="status_bar_classic_icons_summary">Hiện kiểu tô đậm cho các biểu tượng Wi-Fi, sóng và pin</string>
+    <!-- Title for the dialog shown before restarting System UI from a tuner switch. -->
+    <string name="tuner_restart_systemui_dialog_title">Khởi động lại SystemUI?</string>
+    <!-- Message for the dialog shown before restarting System UI from a tuner switch. -->
+    <string name="tuner_restart_systemui_dialog_message">SystemUI cần phải được khởi động lại để áp dụng thay đổi này. Bạn có muốn tiếp tục không?</string>
 </resources>
