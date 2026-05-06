@@ -146,4 +146,13 @@
     <!-- Name of the VoWiFi status bar tuner toggle. -->
     <string name="status_bar_vowifi_icon_title">VoWiFi</string>
 
+    <!-- Classic status bar icons -->
+    <!-- Title for the status bar icon style toggle. -->
+    <string name="status_bar_classic_icons_title">Switch to classic status bar icons</string>
+    <!-- Summary for the status bar icon style toggle. -->
+    <string name="status_bar_classic_icons_summary">Show filled Wi-Fi, signal, and battery icons</string>
+    <!-- Title for the dialog shown before restarting System UI from a tuner switch. -->
+    <string name="tuner_restart_systemui_dialog_title">Restart SystemUI?</string>
+    <!-- Message for the dialog shown before restarting System UI from a tuner switch. -->
+    <string name="tuner_restart_systemui_dialog_message">SystemUI needs to be restarted to apply this change. Would you like to continue?</string>
 </resources>
